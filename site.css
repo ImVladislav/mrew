@@ -15,7 +15,8 @@ article, aside, details, figcaption, figure, footer, header, hgroup, main, nav, 
 audio, canvas, video { display: inline-block; }
 audio:not([controls]) { display: none; height: 0px; }
 [hidden], template { display: none; }
-html { font-family: sans-serif; }
+html { font-family: sans-serif;
+  overflow-x: hidden; }
 body {
 margin: 0px; 
 overflow-x: hidden;
